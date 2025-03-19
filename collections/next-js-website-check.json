@@ -1,0 +1,28 @@
+{
+  "info": {
+    "name": "NEXT JS website check",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "variable": [],
+  "item": [
+    {
+      "name": "Get Status",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:3005",
+          "host": [
+            "http:"
+          ],
+          "path": [
+            "localhost:3005"
+          ],
+          "query": []
+        },
+        "body": {}
+      },
+      "event": []
+    }
+  ]
+}
