@@ -1,22 +1,22 @@
 {
   "info": {
-    "name": "NEXT JS website check",
+    "name": "example website check",
     "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
   },
   "variable": [],
   "item": [
     {
-      "name": "Get Status",
+      "name": "Get Example Status",
       "request": {
         "method": "GET",
         "header": [],
         "url": {
-          "raw": "http://localhost:3005",
+          "raw": "https://example.com",
           "host": [
-            "http:"
+            "https:"
           ],
           "path": [
-            "localhost:3005"
+            "example.com"
           ],
           "query": []
         },
